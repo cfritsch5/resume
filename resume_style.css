@@ -1,0 +1,42 @@
+header img {
+  width: 30%;
+  height: 10%;
+}
+
+body {
+  margin: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.connect {
+  float: right;
+  padding-right: 10%;
+}
+
+.connect li {
+  padding-top: 15px;
+}
+
+.connect img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+/*.connect p {
+  display: inline;
+}*/
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15%;
+  padding-left: 10%;
+}
