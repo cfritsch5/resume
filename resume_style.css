@@ -1,5 +1,7 @@
 header img {
-  width: 30%;
+  width: 275px;
+  display: inline-block;
+  min-width: 20px;
   height: 10%;
 }
 
@@ -9,7 +11,13 @@ body {
 }
 
 section {
-  border-top: 5px solid grey;
+  /*border-top: 5px solid grey;*/
+  display: block;
+}
+
+section ul {
+  margin: 20px;
+  padding: 5px;
 }
 
 a {
@@ -23,13 +31,9 @@ ul {
 
 p {
   width: 90%;
-}
-
-.skills ul {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 10%;
+  padding: 0px;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .title {
@@ -37,15 +41,13 @@ p {
 }
 
 .right {
-  display: flex;
   float: right;
-  vertical-align: middle;
-  width: 25%;
+  padding-right: 30px;
 }
 
 .connect {
   float: right;
-  padding-right: 10%;
+  padding-right: 5%;
 }
 
 .connect li {
@@ -63,4 +65,19 @@ p {
   justify-content: space-between;
   padding-right: 15%;
   padding-left: 10%;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.section_head {
+  padding: 0;
+  /*margin: auto;*/
+  /*text-align: center;*/
+  border-bottom: 3px solid grey;
+  width: 30%;
 }
