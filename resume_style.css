@@ -16,6 +16,31 @@ ul {
   list-style-type: none;
 }
 
+p {
+  width: 90%;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.title {
+  /*text-align: left;*/
+  /*float: left;*/
+}
+
+/*.date {
+  text-align: right;
+  float: right;
+}*/
+.itemhead {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .connect {
   float: right;
   padding-right: 10%;
@@ -31,9 +56,6 @@ ul {
   vertical-align: middle;
 }
 
-/*.connect p {
-  display: inline;
-}*/
 .contact {
   display: flex;
   justify-content: space-between;
