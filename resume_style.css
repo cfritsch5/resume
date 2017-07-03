@@ -4,7 +4,12 @@ header img {
 }
 
 body {
-  margin: 5%;
+  margin: auto;
+  max-width: 80%;
+}
+
+section {
+  border-top: 5px solid grey;
 }
 
 a {
@@ -28,17 +33,14 @@ p {
 }
 
 .title {
-  /*text-align: left;*/
-  /*float: left;*/
+  display: inline-block;
 }
 
-/*.date {
-  text-align: right;
-  float: right;
-}*/
-.itemhead {
+.right {
   display: flex;
-  justify-content: flex-end;
+  float: right;
+  vertical-align: middle;
+  width: 25%;
 }
 
 .connect {
